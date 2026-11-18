@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "20261118T153953Z--jcode-case-names",
+  "recorded_at": "2026-11-18T15:39:53.621Z",
+  "actor": "ChatGPT agent on explicit current-conversation project owner instruction",
+  "kind": "DECISION",
+  "decision": "ONE_TIME_RESUME_FOR_CASE_FILENAME_NORMALIZATION_THEN_PAUSE",
+  "case_id": "swarm-independent-audit-20261118",
+  "previous_event_id": "20261118T151610Z--jcode-roadmap",
+  "previous_owner_control": "PAUSE",
+  "owner_control_after": "PAUSE",
+  "scope": [
+    "issue-v2.md -> issue.md",
+    "constructor-sufficiency-v2.md -> constructor-sufficiency.md",
+    "same-case references only"
+  ],
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/jcode/commit/8d7d49cb3631d19714f60d1776b10f600d00286c"
+  ],
+  "next_action": "Remain PAUSE/DORMANT; no product modifications or public publication"
+}

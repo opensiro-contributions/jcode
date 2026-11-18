@@ -31,7 +31,7 @@
 - P0: conditional composable independent S3* decision actor with enforced task-version-bound feedback to S3; C sufficiency NOT PROVED.
 - P1: source-native reproduction of #1403, exact completion owner and PR overlap, use cheapest native A/B solution if sufficient, modes/rights/negative tests.
 - P2: NONE.
-- See [Human](issue-v2.md) and [AI/developer](constructor-sufficiency-v2.md) for actual proposed constructor state/options/owner and acceptance cases.
+- See [Human](issue.md) and [AI/developer](constructor-sufficiency.md) for actual proposed constructor state/options/owner and acceptance cases.
 
 ## Implementation options
 - First native #1403 artifact validation. Only a separately approved full-cycle Upgrade if a novel meaningful S3* operator outcome is demonstrated.

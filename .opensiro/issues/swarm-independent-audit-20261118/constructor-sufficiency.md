@@ -1,7 +1,7 @@
 # jcode — S3* candidate C constructor and acceptance (AI/developer)
 
 **PLAN_ONLY / NEEDS_EVIDENCE · DRAFT — NOT PUBLISHED**.  
-Human decision: [issue-v2.md](issue-v2.md). Same **historical** vector `S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—`; same **P0 conditional independent S3***, **P1 qualification/dependencies**, **P2 NONE**. Not a shipped C.
+Human decision: [issue.md](issue.md). Same **historical** vector `S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—`; same **P0 conditional independent S3***, **P1 qualification/dependencies**, **P2 NONE**. Not a shipped C.
 
 ## Functional scope: S2 vs S3 vs S3* vs S4 vs S5
 
@@ -63,4 +63,4 @@ Potential future native suites: `cargo test -p jcode-plan`, relevant `jcode-app-
 
 ## 7. Falsification, ownership, cost and publication
 
-Falsify the proposal if native completion verification already achieves the outcome, if no independent actor can be installed, if S3 ignores its response, if governance forbids decisive rights, or if the source does not support the mode. GitHub original owns issue and PR states; Index alone owns accepted grade. MIT [LICENSE](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/LICENSE), [CONTRIBUTING](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/CONTRIBUTING.md) supports AI-generated PRs with issue linkage; [#2208](https://github.com/1jehuang/jcode/issues/2208) advises caution on new lanes. Compare native vs VSM-informed all-in costs, **NOT_MEASURED**. Public fork Issue, original comment, external PR and code changes: **NOT PUBLISHED / NOT IMPLEMENTED**. Human [backlink](issue-v2.md).
+Falsify the proposal if native completion verification already achieves the outcome, if no independent actor can be installed, if S3 ignores its response, if governance forbids decisive rights, or if the source does not support the mode. GitHub original owns issue and PR states; Index alone owns accepted grade. MIT [LICENSE](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/LICENSE), [CONTRIBUTING](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/CONTRIBUTING.md) supports AI-generated PRs with issue linkage; [#2208](https://github.com/1jehuang/jcode/issues/2208) advises caution on new lanes. Compare native vs VSM-informed all-in costs, **NOT_MEASURED**. Public fork Issue, original comment, external PR and code changes: **NOT PUBLISHED / NOT IMPLEMENTED**. Human [backlink](issue.md).

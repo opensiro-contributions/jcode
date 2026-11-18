@@ -2,7 +2,7 @@
 
 **PLAN_ONLY / NEEDS_EVIDENCE · DRAFT — NOT PUBLISHED**  
 **Original:** [1jehuang/jcode](https://github.com/1jehuang/jcode/commit/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745) (master f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745) · **Working fork:** [opensiro-contributions/jcode](https://github.com/opensiro-contributions/jcode) · **case:** `.opensiro/issues/swarm-independent-audit-20261118/` on `opensiro/meta`.  
-**AI/developer companion:** [constructor-sufficiency-v2.md](constructor-sufficiency-v2.md).
+**AI/developer companion:** [constructor-sufficiency.md](constructor-sufficiency.md).
 
 ## 1. Why Opensiro and central accepted VSM assessment
 
@@ -61,4 +61,4 @@ Compare matched #1403 missing/wrong-path cases using simplest jcode-native verif
 
 ## 8. Handoff and permissions
 
-**Research status: PLAN_ONLY / NEEDS_EVIDENCE.** [AI contract](constructor-sufficiency-v2.md) · [receipt](roadmap.md) · [optional original comment draft](maintainer-comment-draft.md). No public fork Issue, external comment/issue/PR, product changes, native tests, Index regrade or proven cost saving. Metadata initialized with `PAUSE / DORMANT` pending separate authorization for later effectful work.
+**Research status: PLAN_ONLY / NEEDS_EVIDENCE.** [AI contract](constructor-sufficiency.md) · [receipt](roadmap.md) · [optional original comment draft](maintainer-comment-draft.md). No public fork Issue, external comment/issue/PR, product changes, native tests, Index regrade or proven cost saving. Metadata initialized with `PAUSE / DORMANT` pending separate authorization for later effectful work.
