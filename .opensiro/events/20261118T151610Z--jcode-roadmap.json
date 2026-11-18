@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261118T151610Z--jcode-roadmap",
+  "recorded_at": "2026-11-18T15:16:10.205Z",
+  "actor": "ChatGPT agent, on explicit operator instruction",
+  "kind": "RESEARCH",
+  "decision": "Record plan-only jcode S3* roadmap on matched fork",
+  "original_repository": "1jehuang/jcode",
+  "case_id": "swarm-independent-audit-20261118",
+  "evidence_urls": [
+    "https://github.com/1jehuang/jcode/issues/1403",
+    "https://github.com/1jehuang/jcode/commit/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745",
+    "https://github.com/opensiro/vsm-harness-index/blob/42dc230289bb5992bc3588fa5376b817b282a0fd/assessments/jc/jcode.md"
+  ],
+  "next_action": "Await explicit owner RESUME before future effectful operations; no external publication consent"
+}
