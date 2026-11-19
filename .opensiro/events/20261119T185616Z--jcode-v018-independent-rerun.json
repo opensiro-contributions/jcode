@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "20261119T185616Z--jcode-v018-independent-rerun",
+  "recorded_at": "2026-11-19T18:56:16.567Z",
+  "actor": "ChatGPT agent executing current user-requested Upstream #58 independent roadmap rerun",
+  "kind": "RESEARCH",
+  "decision": "GO / NEEDS_EVIDENCE proposal-stage independent rerun for 1jehuang/jcode S3*=— -> S3*=C; native tests NOT_RUN; publication NOT_PUBLISHED",
+  "original_repository": "1jehuang/jcode",
+  "case_id": "swarm-independent-audit-20261118",
+  "source_ref": "be8c61678d2eb7e49dc9540a58ddf89e3ca798ab",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58",
+    "https://github.com/1jehuang/jcode/issues/1403",
+    "https://github.com/1jehuang/jcode/issues/2239",
+    "https://github.com/1jehuang/jcode/pull/2240"
+  ],
+  "next_action": "Validate independent vs cheapest native artifact checks and authorization, only later consider product work; no external/public issue, PR or comment without exact current-conversation owner approval"
+}

@@ -1,66 +1,57 @@
-# jcode — S3* candidate C constructor and acceptance (AI/developer)
+# jcode — independent S3* construction sufficiency (AI/developer)
 
-**PLAN_ONLY / NEEDS_EVIDENCE · DRAFT — NOT PUBLISHED**.  
-Human decision: [issue.md](issue.md). Same **historical** vector `S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—`; same **P0 conditional independent S3***, **P1 qualification/dependencies**, **P2 NONE**. Not a shipped C.
+**Target transition:** S3*=— -> S3*=C
+**Proposal-stage decision:** GO
+**Research disposition:** NEEDS_EVIDENCE
 
-## Functional scope: S2 vs S3 vs S3* vs S4 vs S5
+[issue.md](issue.md) · [roadmap.md](roadmap.md). This contract implements the canonical receipt decision only as a future architecture hypothesis. No new current VSM grade, product patch, tests or outside publication.
 
-S2: existing inter-agent scheduling; S3: existing coordinator's decisive current whole-swarm task control; S3*: genuinely independent access and audit of results, with actionable feedback to S3; S4: separate prospective external adaptation (not targeted); S5: ultimate legitimate policy, not generic permission filtering.
+## Functional boundary and independent counterfactual
 
-## 1. Boundary, baseline and counterfactual
+Focus: one installed jcode server/swarm coding team with its root coordinator, workers, authoritative working tree and optional TUI reviewer, at original master be8c61678d2eb7e49dc9540a58ddf89e3ca798ab (2026-11-19). Jcode Desktop, external project-governance actors, unmerged branches and historical removed swarm-deep gates are excluded.
 
-Original first-party [jcode master f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745](https://github.com/1jehuang/jcode/commit/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745); standard server/swarm/CLI, with relevant TUI reviewer sessions. Exclude Jcode Desktop, private extensions, unmerged PR code and removed `swarm-deep`. Historical Index [assessment](https://github.com/opensiro/vsm-harness-index/blob/42dc230289bb5992bc3588fa5376b817b282a0fd/assessments/jc/jcode.md), assessed `5f33d6239b56b3d381d6b2c0e9b151eef0b54cbe`, 2026-09-17, Profile 0.2.2 / Skills 0.3.1.
+Historical Index ownership is **S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—**, [accepted source](https://github.com/opensiro/vsm-harness-index/blob/b6318e9fb855c20a0a48dfd0ea03f78aaafbb320/assessments/jc/jcode.md), 2026-09-17 at 5f33d6239b56b3d381d6b2c0e9b151eef0b54cbe, Profile 0.2.2 / Skills 0.3.1. The [roadmap.md](roadmap.md) six-function dispositions are authoritative: S1 workers produce; S2 regulates interference; S3 is sole current task-control owner; independent S3* must detect deviations and feed S3, without taking S3 or parent's S5 powers; S4 is not an evidenced target.
 
-An operator needs independently observed evidence before acceptance of a delegated coding task. The smallest native alternative is the verification proposed in existing [#1403](https://github.com/1jehuang/jcode/issues/1403), and current coordinator checking. Proposed developer counterfactual: compose an autonomous *independent* auditor through first-party supported interfaces; its lawful choice changes later task execution. Verify this is a material improvement before implementation.
+**Counterfactual:** if the separately configured model-backed auditor is absent while worker reports, server events and simple file checks remain, no independent judgment about authenticity/relevance of accepted work would be made. If native artifact checks alone suffice, then do not build this proposed actor. S3 may refuse acceptance on its own but that is not independent S3* closure.
 
-## 2. Shipped vs OPEN_PR vs unsupported gap
+## Source-pinned native Track A versus on-top Track B
 
-| Behavior | Source/state | Missing evidence |
-| --- | --- | --- |
-| Plan/assignment/task progress | [plan](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/crates/jcode-plan/src/lib.rs) SHIPPED | Trace current completion mutation and actual server enforcement |
-| Coordinator owner/rights | [swarm](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/docs/SWARM_ARCHITECTURE.md), [control](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/crates/jcode-app-core/src/server/comm_control.rs) SHIPPED | Test return path across supported modes |
-| Read-only reviewer sessions | [review code](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/crates/jcode-tui/src/tui/app/commands_review.rs) SHIPPED | Is any review required for task acceptance? |
-| Evidence of incorrect completion | [#1403](https://github.com/1jehuang/jcode/issues/1403) OPEN ISSUE | Reporter sample not independently replicated |
-| Swarm lifecycle hooks | [PR #2035](https://github.com/1jehuang/jcode/pull/2035) OPEN, head `a76013e3fd2f4ea26923c9426388dc3e477ce173` | Observers cannot establish decisive S3* closure by themselves |
-| Trust | [PR #2038](https://github.com/1jehuang/jcode/pull/2038) OPEN, head `1158be3f60e0bbda4160c50a57fbd4fe08c7b4da` | A trust scope is not an independent auditing right |
-| Definitions and agent policy | [PR #2040](https://github.com/1jehuang/jcode/pull/2040) OPEN head `931efba379a658a7d7fdaae7a5ab09cf883d61e6`; [#2041](https://github.com/1jehuang/jcode/pull/2041) OPEN head `926e6383ee84cb6cb37e30c69c10003714484a53` | Named persona != independent effectful audit actor |
-
-These PR states are read-back observations, not first-party shipped behavior.
-
-## 3. Conditional minimum S3* source-native construction
-
-| Stage | Proposed first-party port and state | Decision owner / closure |
-| --- | --- | --- |
-| Disturbance | `TaskResultCandidate{swarm_id,task_id,task_version,authoritative_scope,revision,artifacts}` from server truth, not worker prose | Worker reports; server binds immutable identity |
-| Alternatives | `AuditDecision{ACCEPT,REJECT,INCONCLUSIVE,evidence,reviewer}` | Independent developer-installed read-only auditor selects lawful option |
-| Construction | Registered audit actor for specified task class and first-party supported runtime, not generic hook substitution | Operator delegates *audit judgment* only |
-| Enforcement | Coordinator-only version/rights check before audit-required task acceptance; reject stale/absent/revoked/self-review results | S3 alone changes live plan/task status; parent reserves any ultimate override |
-| Return/feedback | `AuditReceipt{task_version,reviewer,decision,source_revision,reason,applied_status,next_operation}` | Durable audit result feeds back to current S3, changes next runnable task |
-
-**Future C sufficiency:** developer can truly supply a separate decisive autonomous audit actor, exercise different lawful choices, and observe enforced changed later S1/S3 operation. No claim that proposed ports are installed, fully reachable, safe or classified C. A built-in artifact-checking boolean alone would not constitute S3* independence.
-
-## 4. Priority dependencies
-
-P1: native matched failure reproductions for #1403; end-to-end completion path audit; compare A/B/C; classify each PR dependency at its pinned head; test independent rights and return closure. P0: only after material delta, implement the smallest first-party, version-bound independent audit/enforcement slice. P2: NONE.
-
-## 5. Optional additional constructor
-
-NONE: no separate justified S4, S5, C(P) or A(P) mode.
-
-## 6. Proposed source-native acceptance (NOT RUN)
-
-| Scenario | Actor / trigger | Required downstream evidence | Fail |
+| Required function link | Track A: shipped / pending | Track B minimum delta | Falsifier |
 | --- | --- | --- | --- |
-| Positive | Worker returns correct artifact; independent auditor ACCEPT | Exact revision accepted, receipt persisted, next dependent task can run | Merely receiving a DM |
-| Different lawful choice | Same candidate; auditor REJECT | Task not accepted; remediation returned to coordinator | Core hardcodes accept |
-| Wrong path | Worker commits an old copy, not authoritative file | No false acceptance; source path mismatch detectable | Existence check only |
-| Missing actor/timeout | Audit-required task lacks auditor | Fail-closed for audited task; ordinary tasks compatible | Silent success |
-| Stale/revoked | Task changes post-review or reviewer permission revoked | Old receipt cannot approve new task state | Reused stale proof |
-| Unauthorized/self-review | Worker claims to audit itself | No unauthorized status mutation | Role label alone authorizes |
-| Native comparison | Simpler #1403 A/B meets same operator need | NO_USEFUL_CHANGE for S3* runtime work | Grade-driven feature |
+| Independent read-only access | [Reviewer sessions](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-tui/src/tui/app/commands_review.rs) SHIPPED, but session-oriented | Explicit opt-in audit actor registration for a worker-lane result, first-party supported server mode | Already installed reviewer evaluates same result and returns independent decision |
+| Candidate evidence | [Plan](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-plan/src/lib.rs) and [lane sync](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-app-core/src/server/swarm_todo_link.rs) SHIPPED; #1403 ISSUE_ONLY | Capture immutable task ID, plan version, expected scope, source revision, actual changed artifacts, executable check reports | Cheapest native check reliably rejects wrong authoritative file |
+| Completion barrier | [Control](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-app-core/src/server/comm_control.rs) SHIPPED; [#2240](https://github.com/1jehuang/jcode/pull/2240) OPEN head 1e4c838ab641591daa5ca4ac224e50fcefba8b4b | For audit-required tasks defer acceptance until eligible signed/attributed reviewer decision is reconciled at exact version | Existing completion gate already provides distinct independent judgment |
+| Choice and return | Coordinator can requeue; [#2239](https://github.com/1jehuang/jcode/issues/2239) ISSUE_ONLY describes worker check/retry/report | Separate auditor PASS / RECHECK / UNKNOWN, durable decision evidence, S3 hold/retry/accept and subsequent worker action | Reviewer only sends a DM and S3 never changes the plan |
 
-Potential future native suites: `cargo test -p jcode-plan`, relevant `jcode-app-core` comm/task-control tests and supported-mode integration. **Executed commands/tests: NONE.** Do not invent native test receipts.
+Current [Swarm Architecture](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/docs/SWARM_ARCHITECTURE.md) explicitly says older swarm-deep critique/verify gates were removed. [#2035](https://github.com/1jehuang/jcode/pull/2035) OPEN head a76013e3fd2f4ea26923c9426388dc3e477ce173 brings worker lifecycle observers; [#2038](https://github.com/1jehuang/jcode/pull/2038) OPEN head 1158be3f60e0bbda4160c50a57fbd4fe08c7b4da addresses trust; [#2040](https://github.com/1jehuang/jcode/pull/2040) and [#2041](https://github.com/1jehuang/jcode/pull/2041) OPEN define/select roles. None is presumed merged or a completed audit constructor. Critically, PR #2240 has review concern that unavailable worker task data may be treated as empty; this is an in-flight native bug, not proof of a fresh S3* actor.
 
-## 7. Falsification, ownership, cost and publication
+## Minimal complete first-party constructor hypothesis
 
-Falsify the proposal if native completion verification already achieves the outcome, if no independent actor can be installed, if S3 ignores its response, if governance forbids decisive rights, or if the source does not support the mode. GitHub original owns issue and PR states; Index alone owns accepted grade. MIT [LICENSE](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/LICENSE), [CONTRIBUTING](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/CONTRIBUTING.md) supports AI-generated PRs with issue linkage; [#2208](https://github.com/1jehuang/jcode/issues/2208) advises caution on new lanes. Compare native vs VSM-informed all-in costs, **NOT_MEASURED**. Public fork Issue, original comment, external PR and code changes: **NOT PUBLISHED / NOT IMPLEMENTED**. Human [backlink](issue.md).
+**Proposed developer interface**, not a shipped API:
+
+| Port / state | Existing support | Smallest new source-native behavior and actual actor |
+| --- | --- | --- |
+| Candidate identity and evidence | VersionedPlan, server task/assignment state, worker completion and repository revisions | Server snapshots TaskResultCandidate (swarm, task ID/version, worker, expected path, original revision, candidate diff, report/check results) on a pending audited completion |
+| Independent actor registration | Separate read-only reviewer sessions and optional named agents (some agent-definition PRs still open) | Developer registers a non-worker reviewer and task scope in supported configuration; reviewer sees immutable candidate and only read-capable access; parent chooses whether audit is required |
+| Audit decision and return | S3 coordinator task-control commands, plan events and persistence | Reviewer returns PASS, RECHECK or UNKNOWN plus source evidence; server verifies actor identity, task version, source revision, policy and independent role, persists receipt; S3 applies accept/hold/requeue and subsequent task dispatch |
+| Guarded compatibility | Native non-audit task path | On disabled/unsupported mode keep old native semantics; on enabled audit require explicit eligible result, otherwise leave safe pending state; no silent completion for unavailable reviewer |
+
+**C sufficiency if constructed:** an independent developer-composed autonomous audit actor chooses between lawful alternatives, its decision is checked/enforced through first-party source and changes S3's later live task execution, with observable feedback. Generic hook subscription, a deterministic file-existence boolean, an unconsumed reviewer DM or a label named "auditor" does not establish S3* C. S3 retains assignment rights and the user retains ultimate policy.
+
+## Priority, tests, falsifier and alternatives
+
+P0 is the version-bound, independent S3* actor/decision/return construction above. P1: reproduce reporter's [#1403](https://github.com/1jehuang/jcode/issues/1403) failure modes, test native proposal A/B/C first, inspect #2239/#2240 head and ownership, identify backend support across TUI/headless modes, build smallest opt-in interface, and test version/authorization. P2 NONE. Do not use new branch/PR as a substitute for owner interest; [#2208](https://github.com/1jehuang/jcode/issues/2208) records maintainer-side churn concern.
+
+| Future native experiment | Expected first-party S3* closure | Abort if |
+| --- | --- | --- |
+| Correct candidate with reviewer PASS | Exact version-bound receipt leads S3 to accept and release dependent task | A report alone is marked success |
+| Wrong authoritative file but all worker tasks ended | Independent reviewer RECHECK -> S3 holds and sends corrective instruction | Simple native artifact check already catches the same case with same benefit |
+| Missing/revoked/self reviewer | No unauthorized decision; audited task not silently accepted | Unauthenticated response is applied |
+| Stale version or modified worktree | Receipt rejected and fresh review required | Old evidence approves a new snapshot |
+| Feature off and supported other modes | Existing native completion preserved | Opt-in audit silently changes every task |
+
+Prospective native commands include cargo test -p jcode-plan and relevant jcode-app-core swarm/control suites. **NOT_RUN**: this is a proposal-stage review; current main may contain unrelated failing native tests. **NOT_MEASURED**: compare end-to-end engineering effort, acceptance correctness, latency and ongoing runtime tokens with the cheapest native validation.
+
+**Research falsifier:** demonstrate that first-party native artifact/command verification produces the same acceptance outcome without independent function-specific judgment, or that required actor rights cannot be safely installed. If so, **NO_USEFUL_CHANGE** for the additional S3* constructor. Only an Index re-review may later regrade real shipped behavior.
+
+**Handoff:** canonical [roadmap.md](roadmap.md); prior [2026-11-18 historical decision](https://github.com/opensiro-contributions/jcode/blob/c98f41c73818ed7bdeed32d8ab76129a342a91fa/.opensiro/issues/swarm-independent-audit-20261118/roadmap.md) stays in provenance. No external original/fork communication or implementation authorization.

@@ -1,64 +1,57 @@
-# jcode — independent swarm-result audit roadmap (Human issue)
+# jcode — independent swarm-result audit (Human issue)
 
-**PLAN_ONLY / NEEDS_EVIDENCE · DRAFT — NOT PUBLISHED**  
-**Original:** [1jehuang/jcode](https://github.com/1jehuang/jcode/commit/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745) (master f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745) · **Working fork:** [opensiro-contributions/jcode](https://github.com/opensiro-contributions/jcode) · **case:** `.opensiro/issues/swarm-independent-audit-20261118/` on `opensiro/meta`.  
-**AI/developer companion:** [constructor-sufficiency.md](constructor-sufficiency.md).
+**Target transition:** S3*=— -> S3*=C
+**Proposal-stage decision:** GO
+**Research disposition:** NEEDS_EVIDENCE
 
-## 1. Why Opensiro and central accepted VSM assessment
+**Scope:** source-pinned independent Upstream #58 rerun on 2026-11-19. The historical 2026-11-18 PLAN_ONLY case remains in Git history. **DRAFT — NOT PUBLISHED**: this is an internal fork-local decision, not an issue or PR to original maintainers.
 
-Opensiro investigates whether reusable, VSM-informed organizational specifications and source-native engineering can standardize and reduce the total cost of AI-agent harness development. These savings are **not measured**, and maintainers need not adopt VSM.
+[constructor-sufficiency.md](constructor-sufficiency.md) · [roadmap.md](roadmap.md) · [Original jcode](https://github.com/1jehuang/jcode)
 
-**Central HISTORICAL Index starting point, NOT proposed future grades or current master:** `S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—`. [Accepted assessment](https://github.com/opensiro/vsm-harness-index/blob/42dc230289bb5992bc3588fa5376b817b282a0fd/assessments/jc/jcode.md), file blob `26ab988dd6ef8fb1ddbab8e8fff8c3202781eed4`, reviewed 2026-09-17 at source `5f33d6239b56b3d381d6b2c0e9b151eef0b54cbe`; Profile v0.2.2, Skills Methodology v0.3.1. Age: 62 days; recommend Index-owned re-review without blocking research.
+## Why OpenSiro and accepted historical VSM assessment
 
-| Function | Accepted | Meaning / decision |
+OpenSiro investigates whether reusable VSM-informed, source-native organizational capabilities can reduce harness engineering and integration cost. No savings are demonstrated; the jcode project has no obligation to adopt VSM.
+
+**Historical Index baseline (not current code or proposed grades):** S1=A · S2=A · S3=A · S3*=— · S4=— · S5=—. Accepted [Index assessment](https://github.com/opensiro/vsm-harness-index/blob/b6318e9fb855c20a0a48dfd0ea03f78aaafbb320/assessments/jc/jcode.md), blob 26ab988dd6ef8fb1ddbab8e8fff8c3202781eed4, reviewed 2026-09-17 against original 5f33d6239b56b3d381d6b2c0e9b151eef0b54cbe, Profile 0.2.2 / Skills Methodology 0.3.1. The assessment is 63 calendar days old; source drift warrants an Index-owned re-review, not an automatic regrade or mandatory pause.
+
+| Function | Accepted state | Current evidence and why selected/not selected |
 | --- | --- | --- |
-| S1 Operations | A | Existing coding agents, no mandatory C target |
-| S2 Coordination | A | Shared-plan dependencies and conflicts, no mandatory C |
-| S3 Current control | A | Coordinator assignment and recovery, no mandatory C |
-| S3* Complementary independent audit | — | Conditional new independent review constructor research |
-| S4 Outside/future adaptation | — | No independently justified additional work |
-| S5 Identity/ultimate policy | — | Trust/permissions are not by themselves S5; no work justified |
+| **S1 · Operations** | A | Running coding workers own code decisions; no extra C constructor justified |
+| **S2 · Coordination** | A | Native plan dependencies, member messaging and conflict handling; no extra C constructor justified |
+| **S3 · Current control** | A | Root coordinator owns assignments and requeue/recovery; independent audit must report to, not replace, it |
+| **S3* · Independent audit** | — | Current reviewer sessions are not wired into swarm-plan acceptance; qualified on-top C hypothesis |
+| **S4 · Future adaptation** | — | Ambient/memory material does not prove a missing developer-composable future/strategy decision at this swarm boundary |
+| **S5 · Identity and policy** | — | Ultimate authorization remains with user/project owner; not a local autonomy deficit or desired new control plane |
 
-A/C/P are ownership arrangements, not a grade ladder or software quality score.
+These states describe historical decision ownership, not software quality.
 
-## 2. Proposed user capability and decision
+## Operator outcome and new bounded decision
 
-An operator with multiple coding agents wants a worker's completed status to match actual work on the **authoritative** files, not an absent artifact or a stale copy. [Original jcode #1403](https://github.com/1jehuang/jcode/issues/1403) reports 4/12 missing outputs and 1/12 written to the wrong location (author-reported, not independently reproduced). The original issue already proposes native verification options A/B/C; **do not file a duplicate**.
+A worker may claim that coding work is complete while the authoritative source was not updated or an obsolete copy was changed. Original [Issue #1403](https://github.com/1jehuang/jcode/issues/1403) reports four missing outputs and one wrong-location write among 12 spawns; these are reporter claims, **not independently reproduced here**. Original [Issue #2239](https://github.com/1jehuang/jcode/issues/2239) and open [PR #2240](https://github.com/1jehuang/jcode/pull/2240) address unfinished lane work/acceptance. They are relevant native work, not proof that a separate independent auditor is already installed.
 
-**Primary decision:** first confirm whether cheap native artifact validation (A or B) already solves this task. Only if a material residual need survives, consider a first-party **independently developer-composable S3* auditor** whose decision actually changes later coordinator task disposition.
+**P0 — GO to an S3* construction proposal, not to coding:** provide an opt-in, developer-installable read-only reviewer that examines version-pinned worker output, real authoritative artifacts and acceptance evidence before an audit-required swarm task is accepted. Its independent PASS / RECHECK / UNKNOWN opinion returns to the existing S3 coordinator, which decides accept, hold or retry. This is a proposed first-party interface and guarded feedback loop; it does not exist as a demonstrated installed C.
 
-## 3. Existing native work versus gap
+## Existing native work and missing on-top capability
 
-| Current / proposed | Source | Gap / decision |
+| Track A: cheapest existing/native route | What it covers | Track B: only additional function-specific effect |
 | --- | --- | --- |
-| SHIPPED: swarm plan and coordinator roles | [Swarm Architecture](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/docs/SWARM_ARCHITECTURE.md), [jcode-plan](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/crates/jcode-plan/src/lib.rs) | Verify all current accepted-completion routes before asserting absence |
-| SHIPPED: read-only reviewer sessions | [commands_review.rs](https://github.com/1jehuang/jcode/blob/f3fc98fbd8d05fd90a09f42a3cf8b4cc05a57745/crates/jcode-tui/src/tui/app/commands_review.rs) | Separate reviewer != enforceable S3* task outcome |
-| ISSUE: artifact verification A/B/C | [#1403](https://github.com/1jehuang/jcode/issues/1403) OPEN | Reuse it; reproduce the reported failure on current master |
-| OPEN PRs, not shipped | [#2035](https://github.com/1jehuang/jcode/pull/2035) swarm hooks, [#2038](https://github.com/1jehuang/jcode/pull/2038) trust, [#2040](https://github.com/1jehuang/jcode/pull/2040) agent definitions, [#2041](https://github.com/1jehuang/jcode/pull/2041) policy | Avoid duplicating dependent unmerged changes |
-| ISSUE: project sequencing | [#2208](https://github.com/1jehuang/jcode/issues/2208) OPEN | Maintainer is considering freezes; avoid speculative new lanes |
+| Worker/coordinator artifact checks in [#1403](https://github.com/1jehuang/jcode/issues/1403) | Presence, relevant path and commit checks; may solve the entire operator task cheaply | Independent judgment only if a different outcome remains after native checks |
+| [Swarm architecture](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/docs/SWARM_ARCHITECTURE.md) and [server control](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-app-core/src/server/comm_control.rs) | Shared assignments, state, terminal status and coordinator action | Version-bound audit-required pending outcome, then return findings to S3 |
+| [Review command](https://github.com/1jehuang/jcode/blob/be8c61678d2eb7e49dc9540a58ddf89e3ca798ab/crates/jcode-tui/src/tui/app/commands_review.rs) | Read-only separate reviewer of a session; not itself an admission rule for a worker lane | Reuse reviewer mode as actor, but add first-party swarm evidence/decision wiring |
+| [#2239](https://github.com/1jehuang/jcode/issues/2239) and [#2240](https://github.com/1jehuang/jcode/pull/2240) | Proposed or pending worker completion/verification behavior | Distinguish independent scrutiny of a semantically wrong artifact even when lane checks pass |
 
-The older `swarm-deep` critique/verify mode was removed according to current Swarm Architecture. Simple artifact existence checks need not be mislabeled independent S3*.
+A worker with all tasks marked complete but a stale or incorrect production artifact is the discriminator. The simple/native comparator is artifact validation plus an ordinary coordinator review, not a fictional absence of checks.
 
-## 4. Priorities and minimum sufficient result
+## Priorities, acceptance and stopping rules
 
-- **P0 (conditional S3*=C hypothesis):** developer can install an independent, read-only task-result auditor, select lawful ACCEPT / REJECT / INCONCLUSIVE after inspecting real evidence, and reliably return a version-bound receipt to coordinator S3 that affects subsequent task acceptance.
-- **P1:** reproduce #1403, identify the actual source-native completion owner/path and native alternative; check all competing PR heads/diffs, permissions, supported modes, stale-result behavior and negative/compatibility cases.
-- **P2: NONE** (no speculative S4, S5 or C(P)/A(P) promotion).
+**P1**: reproduce #1403 on pinned jcode; examine #2239/#2240 and existing [#2035](https://github.com/1jehuang/jcode/pull/2035), [#2038](https://github.com/1jehuang/jcode/pull/2038), [#2040](https://github.com/1jehuang/jcode/pull/2040), [#2041](https://github.com/1jehuang/jcode/pull/2041) by live head and diff; compare simplest native checks; establish lawful reviewer registration/authorization and deterministic version/timeout behavior. **P2: NONE**.
 
-A complete constructed path would need a genuine independent actor, function-specific decision interface, authority, state/options, enforcement, durable receipt, actual next-operation change and positive/negative native tests. All remain future work, not an accepted C.
+Positive future test: separate auditor discovers a real source mismatch and S3 holds/reassigns the exact task; a correct artifact gets accepted. Negative tests: self-review forbidden, stale task/revision or revoked reviewer cannot approve, missing required auditor stays pending without unsafe release; unconfigured baseline continues working. Tests **NOT_RUN** and cost **NOT_MEASURED**.
 
-## 5. Acceptance / stop gates
+Falsifier: an existing shipped/native issue solution produces equivalent correct acceptance without an independent model-owned S3* decision, or no independent auditor can lawfully change downstream S3 behavior. If so, stop the C construction and use native verification. Do not create a competing product PR while [#2208](https://github.com/1jehuang/jcode/issues/2208) discusses PR/branch churn.
 
-Positive: valid evidence and lawful independent ACCEPT releases the task only under its exact source revision. Negative: REJECT, stale receipt, missing auditor or unauthorized self-review does not release an audit-required task. Compatibility: an ordinary non-audited task still works. **Tests NOT RUN.** Stop on simpler adequate native solution, already-existing implementation, no material user outcome, denied rights, or inadequate independence.
+## Comparison after independent decision and handoff
 
-## 6. Independent paths
+The historical [2026-11-18 case](https://github.com/opensiro-contributions/jcode/blob/c98f41c73818ed7bdeed32d8ab76129a342a91fa/.opensiro/issues/swarm-independent-audit-20261118/roadmap.md) was **PLAN_ONLY / NEEDS_EVIDENCE**, with a conditional S3* hypothesis but **no terminal GO/NO_GO/BLOCKED**. The 2026-11-19 independent source pass reaches scoped **GO / NEEDS_EVIDENCE**, now against new #2239/#2240 evidence. This does not replace historical provenance or assert a current Index change.
 
-Native jcode contribution in existing issue #1403; source-backed Profile/Skills specification feedback; separately authorized MIT-permitted experimental domain fork. None requires the project to adopt VSM.
-
-## 7. Cost hypothesis
-
-Compare matched #1403 missing/wrong-path cases using simplest jcode-native verification versus the proposed independent audit. Measure implementation, integration, review, testing, maintenance and runtime overhead. **NOT_MEASURED.**
-
-## 8. Handoff and permissions
-
-**Research status: PLAN_ONLY / NEEDS_EVIDENCE.** [AI contract](constructor-sufficiency.md) · [receipt](roadmap.md) · [optional original comment draft](maintainer-comment-draft.md). No public fork Issue, external comment/issue/PR, product changes, native tests, Index regrade or proven cost saving. Metadata initialized with `PAUSE / DORMANT` pending separate authorization for later effectful work.
+Implementation, original Issue/PR/comment, public fork Issue/PR, native tests and cost measurement: **NOT DONE / NOT PUBLISHED**. Any outward publication still needs exact current-conversation approval. [Canonical receipt](roadmap.md).
