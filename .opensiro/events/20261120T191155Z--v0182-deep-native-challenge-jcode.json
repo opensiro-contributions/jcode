@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261120T191155Z--v0182-deep-native-challenge-jcode",
+  "recorded_at": "2026-11-20T19:11:55Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 deeper source review",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_SOURCE_CHALLENGE; prior proposal verdict preserved; new native-source falsifiers and/or narrow baseline tests only",
+  "original_repository": "1jehuang/jcode",
+  "original_head_observed": "553db90882164c47a986f13e79541bddc7a9b723",
+  "case_id": "swarm-independent-audit-20261118",
+  "protocol_version": "0.18.2",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "structural and publication template validators to be rerun on this exact case; no C implementation or C-native acceptance",
+  "publication": "NOT_PUBLISHED"
+}
