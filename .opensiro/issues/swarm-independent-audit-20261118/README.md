@@ -1,14 +1,11 @@
-# jcode fork-local capability roadmap case
+# jcode — existing fork-local capability roadmap
 
-**Fresh independent Upstream v0.18 review: GO / NEEDS_EVIDENCE (proposal-stage) · 2026-11-19.**
-**Historical prior (2026-11-18): PLAN_ONLY / NEEDS_EVIDENCE, conditional proposal, no terminal GO/NO_GO/BLOCKED.**
-Original https://github.com/1jehuang/jcode at be8c61678d2eb7e49dc9540a58ddf89e3ca798ab; verified working fork opensiro-contributions/jcode; metadata branch opensiro/meta, case ID swarm-independent-audit-20261118.
+**Stable case:** .opensiro/issues/swarm-independent-audit-20261118/. **PLAN_ONLY · GO / NEEDS_EVIDENCE** — proposed S3*=— -> S3*=C, not shipped and not a new Index grade.
 
-- [issue.md](issue.md) — current Human-facing proposal and historical six-function matrix
-- [constructor-sufficiency.md](constructor-sufficiency.md) — source-native independent S3* technical construction contract and future validation
-- [roadmap.md](roadmap.md) — canonical fresh v0.18 proposal-stage decision receipt
-- [maintainer-comment-draft.md](maintainer-comment-draft.md) — older optional **DRAFT — NOT PUBLISHED**, not sent; must be refreshed against current originals before any request for publication
+**Canonical decision receipt:** [roadmap.md](roadmap.md).
+**Human issue:** [issue.md](issue.md).
+**AI/developer technical companion:** [constructor-sufficiency.md](constructor-sufficiency.md).
 
-Historical versions remain at [fork c98f41c](https://github.com/opensiro-contributions/jcode/tree/c98f41c73818ed7bdeed32d8ab76129a342a91fa/.opensiro/issues/swarm-independent-audit-20261118). State changed separately under owner activation to ACTIVE / ALLOW on 2026-11-19, which enables fork-local metadata research, **not** third-party publication.
+This 2026-11-20 Upstream v0.18.2 follow-up reformats the same-case Human and AI documents to their six- and eight-section templates, preserving the historical canonical proposal in [roadmap.md](roadmap.md). It also rereads the current original source at 553db90882164c47a986f13e79541bddc7a9b723: [crates/jcode-app-core/src/server/comm_plan.rs](https://github.com/1jehuang/jcode/blob/553db90882164c47a986f13e79541bddc7a9b723/crates/jcode-app-core/src/server/comm_plan.rs) and [crates/jcode-plan/src/lib.rs](https://github.com/1jehuang/jcode/blob/553db90882164c47a986f13e79541bddc7a9b723/crates/jcode-plan/src/lib.rs). Prior first-pass and concurrency coordination are at [Upstream #58](https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680).
 
-External original issue/PR/comment, public fork issue/PR, product code changes, tests and Index regrade: NOT DONE. Costs: NOT_MEASURED. Exact publication consent remains a separate gate.
+No product source code changed, no native tests executed, no outside communication approved and no status-only Upstream PR opened. The canonical receipt retains its original historical source pin, while this follow-up supplies an explicitly separate freshness observation.

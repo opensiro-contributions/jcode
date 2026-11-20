@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "20261120T183732Z--v0182-jcode-case-template-sync",
+  "recorded_at": "2026-11-20T18:37:32.572Z",
+  "actor": "OpenSiro AI-assisted Upstream #58 bounded follow-up",
+  "kind": "CHECKPOINT",
+  "decision": "SAME_CASE_TEMPLATE_REPAIRED; GO / NEEDS_EVIDENCE unchanged; NOT_RUN, NOT_PUBLISHED",
+  "original_repository": "1jehuang/jcode",
+  "original_head_observed": "553db90882164c47a986f13e79541bddc7a9b723",
+  "case_id": "swarm-independent-audit-20261118",
+  "protocol_version": "0.18.2",
+  "source_first_checkpoint": "https://github.com/opensiro/upstream/issues/58#issuecomment-7047329680",
+  "validation": "validate_capability_roadmap.py PASS; validate_roadmap_publication.py PASS; no native tests",
+  "publication": "NOT_PUBLISHED",
+  "next_action": "Check native #1403 artifact verification comparator before any independently authorized product implementation"
+}
